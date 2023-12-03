@@ -376,13 +376,13 @@ public class UnknownCompositionMaterials {
 
         Endstone = new Material.Builder("endstone")
                 .dust(1)
-                .color(0xf6fabd).secondaryColor(0xc5be8b)
+                .color(0xf6fabd).secondaryColor(0xc5be8b).iconSet(ROUGH)
                 .flags(NO_SMASHING)
                 .buildAndRegister();
 
         Netherrack = new Material.Builder("netherrack")
                 .dust(1)
-                .color(0x7c4249).secondaryColor(0x400b0b)
+                .color(0x7c4249).secondaryColor(0x400b0b).iconSet(ROUGH)
                 .flags(NO_SMASHING, FLAMMABLE)
                 .buildAndRegister();
 
@@ -431,7 +431,7 @@ public class UnknownCompositionMaterials {
 
         Wood = new Material.Builder("wood")
                 .wood()
-                .color(0xfcfcf2).secondaryColor(0x643200).iconSet(WOOD)
+                .color(0xc29f6d).secondaryColor(0x643200).iconSet(WOOD)
                 .fluidPipeProperties(340, 5, false)
                 .toolStats(ToolProperty.Builder.of(1.0F, 1.0F, 128, 1, GTToolType.SOFT_MALLET).build())
                 .flags(GENERATE_PLATE, GENERATE_ROD, GENERATE_BOLT_SCREW, GENERATE_LONG_ROD, FLAMMABLE, GENERATE_GEAR, GENERATE_FRAME)
